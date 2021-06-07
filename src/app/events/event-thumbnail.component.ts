@@ -20,4 +20,6 @@ export class EventThumbnailComponent implements OnInit {
     return {green: isEarlyStart, bold: isEarlyStart};
   }
 
+  
+
 }
