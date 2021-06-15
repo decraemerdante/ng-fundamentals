@@ -1,15 +1,13 @@
 import { Injectable } from '@angular/core';
 
-
-declare let toastr
+declare let toastr;
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class ToastrService {
+  constructor() {}
 
-  constructor() { }
-
-  success(message: string, title?: string){
+  success(message: string, title?: string) {
     toastr.success(message, title);
   }
 }
